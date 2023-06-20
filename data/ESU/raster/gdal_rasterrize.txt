@@ -1,0 +1,32 @@
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 301_high 301_high.shp 301_high_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 301_low 301_low.shp 301_low_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 301_med 301_med.shp 301_med_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 508_high 508_high.shp 508_high_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 508_low 508_low.shp 508_low_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 508_med 508_med.shp 508_med_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 515_high 515_high.shp 515_high_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 515_low 515_low.shp 515_low_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 515_med 515_med.shp 515_med_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 542_high 542_high.shp 542_high_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 542_low 542_low.shp 542_low_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 542_med 542_med.shp 542_med_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 319_high 319_high.shp 319_high_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 319_low 319_low.shp 319_low_10.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 10 10 -ot Byte -co "COMPRESS=DEFLATE" -l 319_med 319_med.shp 319_med_10.tif
+
+
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 301_high 301_high.shp 301_high_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 301_low 301_low.shp 301_low_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 301_med 301_med.shp 301_med_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 508_high 508_high.shp 508_high_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 508_low 508_low.shp 508_low_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 508_med 508_med.shp 508_med_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 515_high 515_high.shp 515_high_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 515_low 515_low.shp 515_low_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 515_med 515_med.shp 515_med_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 542_high 542_high.shp 542_high_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 542_low 542_low.shp 542_low_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 542_med 542_med.shp 542_med_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 319_high 319_high.shp 319_high_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 319_low 319_low.shp 319_low_30.tif
+gdal_rasterize -of GTiff -burn 1 -te 697100 5347200 703600 5354600 -tr 30 30 -ot Byte -co "COMPRESS=DEFLATE" -l 319_med 319_med.shp 319_med_30.tif
